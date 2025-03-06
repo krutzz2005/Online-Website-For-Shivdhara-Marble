@@ -1,0 +1,170 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="marble.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="description" content="Shivdhara Marble">
+    <meta name="keywords" content="Shivdhara Marble, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shivdhara Marble</title>
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+        <!-- Header Section Begin -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-7">
+                        
+                    </div>
+                    <div class="col-lg-6 col-md-5">
+                        <div class="header__top__right">
+                            <div class="header__top__links">
+                                <a href="login.aspx">Login</a>
+                                <a href="registartion.aspx">Registartion</a>
+                                <a href="logout.aspx">LogOut</a>
+                                 <a href="admin/lo1.aspx">Adminn</a>
+                               
+                                
+                               <!-- <a href="#">FAQs</a>-->
+                            </div>
+                            <div class="header__top__hover">
+                                <span>English <i class="arrow_carrot-down"></i></span>
+                <ul>
+                    <li>English</li>
+                    <li>Hindi</li>
+                    <li>Gujarati</li>
+                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="">
+                        <a href="./index.html"><img src="img/ll.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <nav class="header__menu mobile-menu">
+                        <ul>
+                            <li class="active"><a href="home.aspx">Home</a></li>
+                            <li class="active"><a href="about us.aspx">about</a></li>
+                            <li class="active"><a href="product.aspx">product</a></li>
+                            
+                           
+                             <li class="active"><a href="contact us.aspx">contact</a></li>
+                             <li class="active"><a href="feedback.aspx">feedback</a></li>
+                            <li class="active"><a href="orderstatus.aspx">orderstatus</a></li>
+
+                            
+                           
+                            
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    
+                </div>
+            </div>
+            <div class="canvas__open"><i class="fa fa-bars"></i></div>
+        </div>
+        <div class="col-lg-9">
+                                <div class="right_header_info">
+                                  <!--  <ul>
+                                        <li>
+                                            <a href="admin/l1.aspx"><img style="margin-right: 15px;" src="icon/1.png" alt="#" /></a>
+                                        </li>
+                                        <li style="color: #000000">
+                                           
+                                        </li>
+                                       
+                                           </ul>-->
+</div>
+            </div>
+    </header>
+    <!-- Header Section End -->
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+  <footer>
+                <div class="footer">
+                    <div class="container-fluid">
+                        <div class="border1">
+                            <div class="row">
+                              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                                    <ul class="sociel">
+                                        <li> <a href="https://www.facebook.com/""><i class="fa fa-facebook-f"></i></a></li>
+                                        <li> <a href="http://www.twitter.com/""><i class="fa fa-twitter"></i></a></li>
+                                        <li> <a href="http://www.instagram.com/""><i class="fa fa-instagram"></i></a></li>
+                                        <li> <a href="http://in.linkedin.com//""><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div> 
+                               <div class="col-xl-7 col-lg-7 col-md-7 col-sm-13">
+                                    <ul class="lik">
+                                        <li> <a href="home.aspx">Home</a></li>
+                                        <li> <a href="about.aspx">About</a></li>
+                                        <li> <a href="wall_tiles.aspx">Wall Tiles</a></li>                   
+                                        <li> <a href="floor.aspx">Floor Tiles</a></li>   
+                                        <li> <a href="feedback.aspx">Feedback</a></li>
+                                        <li> <a href="contact.aspx">Contact us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                   
+                  
+                    <div class="copyright">
+                        <p>Develop By Munjapara Mosam,Sejpal Kruti and Vegad Krupa</a></p>
+                    </div>
+            
+             </div>
+
+            </footer>
+            <!-- end footer -->
+        </div>
+
+    </div>
+
+    <div class="overlay"></div>
+
+        <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+    </div>
+    </form>
+</body>
+</html>
